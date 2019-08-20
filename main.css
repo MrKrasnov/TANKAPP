@@ -1,0 +1,61 @@
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header-flex {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navigation {
+  width: 50%;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  margin-top: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navigation li {
+  display: block;
+  width: 100%;
+  margin-left: 20px;
+}
+
+.navigation li a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+  color: #818994;
+  font-size: 10pt;
+}
+
+.logo {
+  margin-top: 30px;
+}
+
+header {
+  padding-bottom: 25px;
+}
+/*# sourceMappingURL=main.css.map */
