@@ -1,0 +1,37 @@
+.content h1
+    text-align: center
+    color: #4c5767
+    line-height: 0px
+    margin-bottom: 90px
+.content
+    padding-top: 90px
+    padding-bottom: 100px
+    font-family: 'Ubuntu', sans-serif
+    & .flex
+        justify-content: space-between
+        
+.contentflex
+    display: flex
+    justify-content: flex-start
+    margin-left: 20px
+    & h2
+        color: #424c5e
+        padding-bottom: 20px
+    & p
+        color: #a2a7ae
+.father div h2::before
+    content: ''
+    float: left
+    width: 60px
+    height: 50px
+    background-repeat: no-repeat
+// ля прикольная тема
+@for $i from 1 through 4
+    .father div:nth-child(#{$i}) h2::before
+        background-image: url(./img/icon#{$i}.png)
+.mobile
+    display: none
+        
+        
+         
+    

@@ -1,5 +1,5 @@
 .container {
-  width: 95%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -57,5 +57,340 @@ body {
 
 header {
   padding-bottom: 25px;
+}
+
+.main .container .flex {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main {
+  background: blue url(./img/bg-main.jpg);
+}
+
+.div-img {
+  width: 40%;
+  margin-top: 80px;
+}
+
+.div-img img {
+  margin-bottom: -5px;
+}
+
+.title-text {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.title-text h1 {
+  color: #ffffff;
+  font-size: 50px;
+  margin-top: 200px;
+}
+
+.title-text p {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.title-text form {
+  padding-top: 30px;
+}
+
+.title-text small {
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.title-text small span {
+  background-color: #ffce54;
+  border-radius: 7px;
+  padding: 1px 5px;
+}
+
+.title-text input {
+  margin-top: 30px;
+  padding: 25px 25px;
+  border-radius: 10px;
+  border: none;
+  width: 300px;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.title-text input:focus {
+  outline: none;
+}
+
+.title-text button {
+  margin-top: 10px;
+  padding: 20px 20px;
+  border-radius: 10px;
+  border: none;
+  width: 150px;
+  font-size: 20px;
+  margin-right: 20px;
+  background-color: #77c344;
+  color: #fff;
+}
+
+.title-text button:focus {
+  outline: none;
+}
+
+.sponsor .flex {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sponsor {
+  padding: 20px 0px;
+  background-color: #f8f8f8;
+}
+
+.content h1 {
+  text-align: center;
+  color: #4c5767;
+  line-height: 0px;
+  margin-bottom: 90px;
+}
+
+.content {
+  padding-top: 90px;
+  padding-bottom: 100px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.content .flex {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contentflex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-left: 20px;
+}
+
+.contentflex h2 {
+  color: #424c5e;
+  padding-bottom: 20px;
+}
+
+.contentflex p {
+  color: #a2a7ae;
+}
+
+.father div h2::before {
+  content: '';
+  float: left;
+  width: 60px;
+  height: 50px;
+  background-repeat: no-repeat;
+}
+
+.father div:nth-child(1) h2::before {
+  background-image: url(./img/icon1.png);
+}
+
+.father div:nth-child(2) h2::before {
+  background-image: url(./img/icon2.png);
+}
+
+.father div:nth-child(3) h2::before {
+  background-image: url(./img/icon3.png);
+}
+
+.father div:nth-child(4) h2::before {
+  background-image: url(./img/icon4.png);
+}
+
+.mobile {
+  display: none;
+}
+
+.callback {
+  padding-top: 50px;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #ececec;
+}
+
+.callback .flex {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.callback h1 {
+  text-align: center;
+}
+
+.callback p {
+  text-align: center;
+}
+
+.callback form {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.callback input {
+  margin-left: auto;
+  margin-right: 10px;
+  padding: 25px 25px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  width: 300px;
+  font-size: 20px;
+  display: block;
+}
+
+.callback input:focus {
+  outline: none;
+}
+
+.callback button {
+  margin-right: auto;
+  height: 60px;
+  padding: 20px 20px;
+  border-radius: 10px;
+  border: none;
+  width: 150px;
+  font-size: 20px;
+  background-color: #77c344;
+  color: #fff;
+  display: block;
+}
+
+.callback button:focus {
+  outline: none;
+}
+
+@media (max-width: 1000px) {
+  .navigation {
+    width: 100%;
+  }
+  .main .flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .content .flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .content .flex .mobile {
+    display: block;
+  }
+  .content .flex .mobile img {
+    width: 100%;
+  }
+  .content .flex .contentflex {
+    display: block;
+  }
+  .content .flex p {
+    text-align: center;
+  }
+  .MAC {
+    display: none;
+  }
+  .div-img img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 750px) {
+  .container {
+    width: 100%;
+  }
+  .sponsor img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .sponsor .flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .sponsor .flex div {
+    margin-bottom: 20px;
+  }
+  .navigation ul {
+    margin-left: 60%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .navigation ul li {
+    margin-bottom: 15px;
+    margin-left: 0;
+  }
+  nav {
+    display: none;
+  }
+  .navigation .mobile {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    background: none;
+    border: none;
+    background-image: url(./img/hamburgerpng.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+  }
+  .navigation .mobile:focus {
+    outline: none;
+  }
+  .title-text input {
+    width: 60%;
+  }
+  .callback .flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .callback button {
+    margin-right: 0;
+    margin-top: 20px;
+  }
+  .callback input {
+    width: 60%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .navigation ul {
+    margin-left: 0;
+  }
 }
 /*# sourceMappingURL=main.css.map */
