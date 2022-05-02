@@ -1,2 +1,2 @@
 # TANKAPP
- Разработка PDS макета при использовании SASS. В конце подразумевается оттачивать на нем свой JavaScript
+It's html layout for TANKAPP. It's just practice.
